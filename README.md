@@ -12,7 +12,7 @@ https://codepen.io/cgd199158/pen/bGYXEwd
 yarn add db-pie-chart
 ```
 
-### 使用
+## 使用
 ```
 import DbPieChart from 'db-pie-chart'
 
@@ -32,3 +32,5 @@ pie.resetArc(Math.random()*180) // 设置arc角度0~180
 
 // 图形上的文字可用定位自行设置就行了
 ```
+## github地址
+https://github.com/cgd199158/db-pie-chart
