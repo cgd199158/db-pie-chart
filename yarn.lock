@@ -6783,6 +6783,11 @@ kleur@^3.0.3:
   resolved "https://registry.npmmirror.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
+konva@^8.3.3:
+  version "8.3.3"
+  resolved "https://registry.npmmirror.com/konva/-/konva-8.3.3.tgz#409c811a7aa474e075e8928b8a931cf12d4dd517"
+  integrity sha512-S/v9JW3gNr4mweRwk4JLiJSnQAWs3aZBU4SY9pXGgCFxIvSDbKTnXTDYb2IMxFnurh3ItiR249RG0NvozHd1OA==
+
 launch-editor-middleware@^2.2.1:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/launch-editor-middleware/-/launch-editor-middleware-2.3.0.tgz#edd0ed45a46f5f1cf27540f93346b5de9e8c3be0"

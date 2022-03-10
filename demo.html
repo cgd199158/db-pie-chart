@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+
+<body>
+  <div id="demo" style="width: 400px;height: 400px;"></div>
+  <button id="btn">测试</button>
+  <script src="./dist/db-pie-chart.js"></script>
+  <script>
+    var pieChart = new DbPieChart({
+      container: 'demo',
+      width: 400,
+      height: 400
+    })
+    document.querySelector('#btn').onclick = function(){
+      pieChart.resetArc(Math.random()*180)
+    }
+  </script>
+</body>
+
+</html>

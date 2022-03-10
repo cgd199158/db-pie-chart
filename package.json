@@ -1,7 +1,25 @@
 {
   "name": "db-pie-chart",
   "version": "0.1.0",
-  "private": true,
+  "main": "dis/db-pie-chart.js",
+  "description": "一个简单的环形进度条",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "web",
+    "component",
+    "circle",
+    "progress"
+  ],
+  "author": [
+    {
+      "name": "cgdong",
+      "email": "349008059@qq.com"
+    }
+  ],
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +28,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "konva": "^8.3.3",
+    "lodash": "^4.17.21",
     "vue": "^3.0.0"
   },
   "devDependencies": {
